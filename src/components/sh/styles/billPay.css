@@ -1,0 +1,96 @@
+.heading{
+    margin-top: 4%;
+    width: 99%; 
+    background-color: chartreuse;
+    font-size:20px;
+    padding:0.5%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px dotted black;
+    border-top: 2px dotted black;
+}
+#bh1{
+    text-decoration-line: underline;
+}
+#align{
+    display: flex;
+}
+#elements{
+    margin-top: 1%;
+    display: flex;
+    min-width: auto;
+    justify-content: center;
+}
+
+.bANDpDIV{
+    background-color: ghostwhite;
+    margin: 2%;
+    padding: 1%;
+    min-width: 43%;
+    border-radius: 20px;
+}
+#billDet{
+    margin-top: 10%;
+    min-height: auto;
+    min-width: auto;
+}
+#pDetail{
+    display: flex;
+    margin: 5%;
+    min-width: auto;
+    font-size: larger;
+    border: 2px solid black;
+}
+#pD1,#pD2{
+    padding: 2%;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#pD1{
+    background-color: chartreuse;
+    border-right: 2px solid black;
+}
+
+/* Payment */
+
+#pHeading{
+    margin-bottom: 8%;
+    
+}
+.pDiv{
+    border-bottom: 2px solid rgb(126, 124, 124);
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 6%;
+}
+.pDiv p{
+    margin-left: 5%;
+}
+.pDiv input{
+    transform: scale(2); 
+}
+
+/* button */
+
+#button{
+    display: flex;
+    justify-content: right;
+    margin-top: 3%;
+}
+#button button{
+    font-size: xx-large;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: chartreuse;
+    cursor: pointer;
+    margin-right: 10%;
+}
+#button button:active{
+    border: 2px solid black;
+}

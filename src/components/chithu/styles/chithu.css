@@ -1,0 +1,131 @@
+.heading{
+     border-radius: 20px 20px 0 0 ;
+     width: 98%;
+     height: 100%;
+     background-color: chartreuse;
+     font-size:30px;
+     padding:1%;
+     color: black;
+     display: flex;
+     justify-content: center;
+     border-bottom: 2px dotted black;
+}
+.options{
+     margin-top: 5%;
+}
+.options #value{
+     display: flex;
+     justify-content: space-between;
+}
+#disc{
+     display: flex;
+     font-weight: bolder;
+     font-size: 30px;
+     justify-content: center;
+     background-color: chartreuse;
+     padding:2%;
+     width: 50%;
+}
+#disc #p{
+    font-weight: bolder;
+}
+.options #value{
+     width: 50%;
+}
+.options #value #valbtns{
+     display: grid;
+     width: inherit;
+}
+.options #value #valbtns button{
+     font-weight: bolder;
+     font-size: larger;
+     background-color: red;
+     cursor:pointer;
+     border: 2px outset wheat;
+}
+.options #value #valbtns button:active{
+     border: 2px inset black;
+}
+#valbtns button:target{
+     background-color:green;
+}
+.option1,.option2,.option3{
+     display: flex;
+     background-color: white;
+     justify-content: space-between;
+     margin-top: 6%;
+     margin-left: 10%;
+     margin-right: 10%;
+     box-shadow: 1px 1px 20px ghostwhite,-1px 0px 20px ghostwhite;
+     border: 2px solid black;
+}
+#disp{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     padding: 4% 20% 4% 20%;
+}
+#disp span{
+     font-size: xx-large;
+}
+#disp input{
+     cursor: pointer;
+     border: none;
+     width: 100%;
+     border-bottom: 2px solid black;
+     outline: none;
+     font-size: xx-large;
+}
+#nonVal{
+     width: 50%;
+     display: flex;
+     justify-content:space-evenly;
+}
+#nonVal div{
+     margin-top: 5%;
+     font-weight: bolder;
+     font-size: x-large;
+}
+#nonVal input{
+     accent-color: red; 
+}
+#btnDiv{
+     display: flex;
+     justify-content:right;
+     padding: 3% 5% 3% 0;
+}
+#btnDiv button{
+     font-weight: bolder;
+     font-size: xx-large;
+     padding: 0.5% 3% 0.5% 3%;
+     cursor: pointer;
+     border-radius: 20px;
+     background-color: chartreuse;
+     border: 2px outset white;
+}
+
+#btnDiv button:hover{
+     box-shadow: 7px 7px 20px 1px chartreuse,-7px -7px 20px 1px chartreuse;
+}
+#nonVal div label{
+     cursor: pointer;
+}
+#btnDiv button:active{
+     border: 2px inset white;
+     cursor: pointer;
+}
+
+/* Not Found */
+
+#notFoundBody{
+     min-width: min-content;
+     min-height: min-content;
+     /* background-color: aqua; */
+     display: flex;
+     justify-content: center;
+}
+
+#notFoundBody img{
+     width: 500px;
+     height: 500px;
+}

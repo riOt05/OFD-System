@@ -1,0 +1,59 @@
+.container{
+    filter: brightness(100%);
+    position: fixed;
+    z-index: -1;
+    min-height: 50%;
+    min-width: 40%;
+    opacity: 50%;
+    background-color: white;
+    margin-top: 14%;
+    margin-left: 30%;
+    border-radius: 20px;
+    box-shadow: inset 0 0 1px 3px rgb(207, 201, 201);
+}
+.subContainer{
+    position: fixed;
+    border-radius: 20px;
+    margin-top: 17%;
+    margin-left: 30%;   
+    min-height: 50%;
+    min-width: 40%;
+}
+#title{
+    background-color: chartreuse;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+#cont{
+    margin-top: 5%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+}
+#cont h1{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 25%;
+}
+#end{
+    color: red;
+}
+#button{
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+}
+#button button{
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 2%;
+    margin-right: 5%;
+    border:2px outset chartreuse;
+    background-color: chartreuse;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#button button:active{
+    border:5px inset yellowgreen;
+}
